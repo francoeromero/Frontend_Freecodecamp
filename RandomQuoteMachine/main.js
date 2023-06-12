@@ -1,7 +1,8 @@
 import React from 'https://esm.sh/react@18.2.0';
 import ReactDOM from 'https://esm.sh/react-dom@18.2.0';
 
-//funcion 1 <QuoteBox/>
+//componente QuoteBox <QuoteBox/>
+//estructura de elementos html
 const QuoteBox = () => (
 	<div id='quote-box'>
     <p id='text'>{quote.text}</p>
@@ -24,7 +25,7 @@ const QuoteBox = () => (
     </div>
   </div>
 );
-//funcion 2 <App/>
+//componente App <App/>
 const App = () => (
   <div class='main'>
   	<QuoteBox/>
